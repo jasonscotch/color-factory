@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <h2>
+      Add A Color
+    </h2>
+    <form>
+      <label
+        for="name"
+      >
+        Color Name:
+      </label>
+      <input
+        id="name"
+        name="name"
+        placeholder="Enter a color name here"
+        value=""
+      />
+      <label
+        for="hex"
+      >
+        Color:
+      </label>
+      <input
+        id="hex"
+        name="hex"
+        type="color"
+        value="#ffffff"
+      />
+      <button
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;

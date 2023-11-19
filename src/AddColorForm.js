@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 const AddColorForm = ({ addColor }) => {
   const [formData, setFormData] = useState({name: "", hex:"#ffffff"});
+  
   const navigate = useNavigate();
 
   const handleChange = (e) => {
